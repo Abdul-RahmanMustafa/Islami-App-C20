@@ -9,4 +9,10 @@ class AppAssets {
   static const String SebhaIcon = 'assets/images/sebha_icon.png';
   static const String RadioIcon = 'assets/images/radio_icon.png';
   static const String TimeIcon = 'assets/images/time_icon.png';
+  static const String logo = 'assets/images/logo.png';
+  static const String mostRecent = 'assets/images/most_recent.png';
+  static const String SearchIcon = 'assets/images/search_icon.png';
+  static const String suraItemFrame = 'assets/images/sura_item_frame.png';
+  static const String sebhaHead = 'assets/images/sebhaHead.png';
+  static const String sebhaBody = 'assets/images/sebhaBody.png';
 }

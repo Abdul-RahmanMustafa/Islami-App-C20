@@ -15,4 +15,6 @@ class AppAssets {
   static const String suraItemFrame = 'assets/images/sura_item_frame.png';
   static const String sebhaHead = 'assets/images/sebhaHead.png';
   static const String sebhaBody = 'assets/images/sebhaBody.png';
+  static const String corners = 'assets/images/corners.png';
+  static const String SuraBG = 'assets/images/suraBg.png';
 }

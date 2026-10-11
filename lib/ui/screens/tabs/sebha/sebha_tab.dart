@@ -45,8 +45,8 @@ class _SebhaTabState extends State<SebhaTab> {
                 alignment: Alignment.center,
                 children: [
                   InkWell(
-                    splashColor: AppColors.TransparentColor,
-                    highlightColor: AppColors.TransparentColor,
+                    splashColor: AppColors.transparentColor,
+                    highlightColor: AppColors.transparentColor,
                     enableFeedback: false,
                     onTap: () {
                       setState(() {

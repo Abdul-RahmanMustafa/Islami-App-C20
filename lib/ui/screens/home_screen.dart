@@ -43,16 +43,16 @@ class _HomeScreenState extends State<HomeScreen> {
           fit: BoxFit.fill,
         ),
         Scaffold(
-          backgroundColor: AppColors.TransparentColor,
+          backgroundColor: AppColors.transparentColor,
           bottomNavigationBar: Theme(
             data: Theme.of(
               context,
-            ).copyWith(canvasColor: AppColors.PrimaryColor),
+            ).copyWith(canvasColor: AppColors.primaryColor),
             child: BottomNavigationBar(
               currentIndex: selectedIndex,
-              backgroundColor: AppColors.PrimaryColor,
-              selectedItemColor: AppColors.WhiteColor,
-              unselectedItemColor: AppColors.BlackColor,
+              backgroundColor: AppColors.primaryColor,
+              selectedItemColor: AppColors.whiteColor,
+              unselectedItemColor: AppColors.blackColor,
               selectedLabelStyle: AppStyles.bold12white,
               onTap: (index) {
                 selectedIndex = index;
@@ -112,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 6),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(66),
-                color: AppColors.BlackColorSelected,
+                color: AppColors.blackColorSelected,
               ),
               child: ImageIcon(AssetImage(iconName)),
             )

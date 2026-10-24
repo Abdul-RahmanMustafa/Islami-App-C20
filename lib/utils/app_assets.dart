@@ -17,4 +17,8 @@ class AppAssets {
   static const String sebhaBody = 'assets/images/sebhaBody.png';
   static const String corners = 'assets/images/corners.png';
   static const String SuraBG = 'assets/images/suraBg.png';
+  static const String hadithCardBG = 'assets/images/hadithCardBG.png';
+  static const String hadithLeftCorner = 'assets/images/hadithLeftCorner.png';
+  static const String hadithRightCorner = 'assets/images/hadithRightCorner.png';
+  static const String hadithBottomImage = 'assets/images/hadithBottomImage.png';
 }

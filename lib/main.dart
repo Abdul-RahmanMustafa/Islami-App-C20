@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:islami_app/ui/screens/home_screen.dart';
+import 'package:islami_app/ui/screens/tabs/hadith/hadith_details/hadith_details_screen.dart';
+import 'package:islami_app/ui/screens/tabs/quran/sura_details/sura_details_screen.dart';
+import 'package:islami_app/ui/screens/tabs/quran/sura_details1/sura_details_screen1.dart';
 import 'package:islami_app/utils/app_routes.dart';
+import 'package:islami_app/utils/app_theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +18,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.homeRouteName,
-      routes: {AppRoutes.homeRouteName: (context) => HomeScreen()},
+      routes: {
+        AppRoutes.homeRouteName: (context) => HomeScreen(),
+        AppRoutes.suraDetailsRouteName: (context) => SuraDetailsScreen(),
+        AppRoutes.suraDetails1RouteName: (context) => SuraDetailsScreen1(),
+        AppRoutes.hadithDetailsRouteName: (context) => HadithDetailsScreen(),
+      },
+      darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.dark,
     );
   }
 }
